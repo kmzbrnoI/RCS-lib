@@ -1,10 +1,15 @@
 # Example rcs library for hJOP server
 
+This project contains template for creating own RCS library. This library meets
+[RCS interface specification](https://github.com/kmzbrnoI/mtb-lib/wiki/api-specs)
+and is linkable with [hJOPserver](https://github.com/kmzbrnoI/hJOPserver).
+Its purpose is to simplify creation of own RCS libraries.
+
 This library can be compiled using MinGW gcc compiler on Windows.
 
-Please change every occurence of word `EXAMPLE` to you library name.
+Please change every occurrence of word `EXAMPLE` to your library name.
 
-Example library does nothing. Only sends some fake data to hJOPserver.
+This example library does nothing. Only sends some fake data to hJOPserver.
 
 Working `Makefile` is included.
 
