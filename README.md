@@ -1,29 +1,30 @@
-Example rcs library for hJOP server.
+# Example rcs library for hJOP server
 
-Can be compiled using MinGW gcc compiler.
+This library can be compiled using MinGW gcc compiler on Windows.
 
-Please change every occurence of word "EXAMPLE" to you library name.
+Please change every occurence of word `EXAMPLE` to you library name.
 
-Example library do nothing. Only send some fake data to hJOP-server.
+Example library does nothing. Only sends some fake data to hJOPserver.
 
-Working Makefile is included.
+Working `Makefile` is included.
+
 Crucial for working library is:
-* file with extension .def - defining exporting functions
-* gcc parameters "-shared" and "-Wl,--enable-stdcall-fixup" - assure right exported function names
+ * `.def` file â€“ defines exported functions.
+ * gcc parameters `-shared` and `-Wl,--enable-stdcall-fixup` â€“ assure right
+   exported function names.
 
+# UkÃ¡zkovÃ¡ knihovna pro systÃ©m rcs vÂ programu hJOPserver
 
+Lze zkompilovat pomocÃ­ kompilÃ¡toru gcc zÂ balÃ­ku MinGW.
 
-Ukázková knihovna pro systém rcs v programu hJOP server.
+UkÃ¡zkovÃ¡ knihovna nedÄ›lÃ¡ nic, jen posÃ­lÃ¡ hJOP vymyÅ¡lenÃ¡ data.
 
-Lze zkompilovat pomocí kompilátoru gcc z balíku MinGW.
+FunkÄnÃ­ `Makefile` je souÄÃ¡stÃ­.
 
-Ukázková knihovna nedìlá nic, jen posílá hJOP vymyšlená data.
+ZÃ¡sadnÃ­ pro sprÃ¡vnou kompilaci je:
+ * soubor s koncovkou `.def` â€“ urÄuje funkce pro export vÂ knihovnÄ›.
+ * gcc parametry `-shared` a `-Wl,--enable-stdcall-fixup` â€“ zajistÃ­ sprÃ¡vnÃ©
+   nÃ¡zvy exportovanÃ½ch funkcÃ­.
 
-Funkèní Makefile je souèástí.
-Zásazní pro správnou kompilace je:
-* soubor s koncovkou .def - urèuje funkce pro export v knihovnì
-* gcc parametry "-shared" a "-Wl,--enable-stdcall-fixup" - zajistí správnì názvy exportovanıch funkcí
-
-
-Michal Petrilak
+Created by Michal Petrilak.
 2017/7
